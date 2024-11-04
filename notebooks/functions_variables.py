@@ -1,3 +1,5 @@
+import pandas as pd
+
 def encode_tags(df):
 
     """Use this function to manually encode tags from each sale.
@@ -10,7 +12,15 @@ def encode_tags(df):
     Returns:
         pandas.DataFrame: modified with encoded tags
     """
-    tags = df["tags"].tolist()
-    # create a unique list of tags and then create a new column for each tag
-        
+    unique_tags = set()
+    for tags in df['tags']:
+        if isinstance(tags, list):
+            unique_tags.update(tags)
+    
+    new_columns = {}
+    for tag in unique_tags:
+        new_columns[tag] = df['tags'].apply(lambda x: 1 if isinstance(x, list) and tag in x else 0)
+    
+    new_df = pd.DataFrame(new_columns)
+    df = pd.concat([df, new_df], axis=1)
     return df
