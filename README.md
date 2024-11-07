@@ -50,30 +50,30 @@ The aim of this project is to develop a machine learning model to predict house 
 ### Linear Regression
 | Metric         | Value              |
 |----------------|--------------------|
-| Training Score | 0.8251             |
-| Test Score     | 0.9135             |
-| MSE            | 142,855.84         |
+| Training Score | 0.8802             |
+| Test Score     | 0.9125             |
+| MSE            | 80994.67           |
 
 ### Random Forest
 | Metric         | Value              |
 |----------------|--------------------|
-| Training Score | 0.9894             |
-| Test Score     | 0.7269             |
-| RMSE           | 6253,870.21        |
+| Training Score | 0.9892             |
+| Test Score     | 0.9898             |
+| RMSE           | 27628.42           |
 
 ### Gradient Boosting
 | Metric         | Value              |
 |----------------|--------------------|
-| Training Score | 0.9947             |
-| Test Score     | 0.7527             |
-| RMSE           | 241,608.52         |
+| Training Score | 0.9898             |
+| Test Score     | 0.9899             |
+| RMSE           | 27462.38           |
 
 ### Support Vector Machine
 | Metric         | Value              |
 |----------------|--------------------|
-| Training Score | 0.2965             |
-| Test Score     | 0.2712             |
-| RMSE           | 414,743.61         |
+| Training Score | 0.4107             |
+| Test Score     | 0.4632             |
+| RMSE           | 200655.40          |
 ### Descriptive Statistics for `description.sold_price`
 | Statistic | Value      |
 |-----------|------------|
