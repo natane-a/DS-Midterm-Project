@@ -47,6 +47,33 @@ The aim of this project is to develop a machine learning model to predict house 
 | MAE            | 9,667.04           |
 | RÂ²            | 0.7425             |
 
+### Linear Regression
+| Metric         | Value              |
+|----------------|--------------------|
+| Training Score | 0.8251             |
+| Test Score     | 0.9135             |
+| MSE            | 142,855.84         |
+
+### Random Forest
+| Metric         | Value              |
+|----------------|--------------------|
+| Training Score | 0.9894             |
+| Test Score     | 0.7269             |
+| RMSE           | 6253,870.21        |
+
+### Gradient Boosting
+| Metric         | Value              |
+|----------------|--------------------|
+| Training Score | 0.9947             |
+| Test Score     | 0.7527             |
+| RMSE           | 241,608.52         |
+
+### Support Vector Machine
+| Metric         | Value              |
+|----------------|--------------------|
+| Training Score | 0.2965             |
+| Test Score     | 0.2712             |
+| RMSE           | 414,743.61         |
 ### Descriptive Statistics for `description.sold_price`
 | Statistic | Value      |
 |-----------|------------|
@@ -66,3 +93,4 @@ The aim of this project is to develop a machine learning model to predict house 
 ## Future Goals
 1. Explore building more complex models, such as deep learning, to enhance performance.
 2. Use the model for real-world house price predictions and evaluate its effectiveness.
+3. Fix issues concerning overfitting.
