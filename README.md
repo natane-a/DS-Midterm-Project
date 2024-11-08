@@ -42,9 +42,10 @@ To view Kai and Natane's workflows, you can view branches to see individual work
 ### Best Model: XGBRegressor
 | Metric         | Value              |
 |----------------|--------------------|
-| Training Score | 0.9898             |
-| Test Score     | 0.9887             |
-| RMSE           | 30135.75           |
+| Training Score | 0.9966             |
+| Test Score     | 0.9904             |
+| MSE            | 824,864,461.44     |
+| MAE            | 3725.76            |
 
 
 ### Linear Regression
@@ -74,17 +75,17 @@ To view Kai and Natane's workflows, you can view branches to see individual work
 | Training Score | 0.4107             |
 | Test Score     | 0.4632             |
 | RMSE           | 200655.40          |
-### Descriptive Statistics for `description.sold_price`
-| Statistic | Value      |
-|-----------|------------|
-| Count     | 1343.00    |
-| Mean      | 9667.04    |
-| Std Dev   | 246451.96  |
-| Min       | 0.00       |
-| 25%       | 8.16       |
-| 50%       | 20.53      |
-| 75%       | 44.16      |
-| Max       | 8975225.00 |
+### Descriptive Statistics for `MAE`
+| Statistic | Value     |
+|-----------|-----------|
+| Count     | 1330.00   |
+| Mean      | 3725.76   |
+| Std Dev   | 28488.48  |
+| Min       | 0.50      |
+| 25%       | 146.09    |
+| 50%       | 346.73    |
+| 75%       | 888.86    |
+| Max       | 544763.88 |
 
 ## Challenges 
 1. **EDA**: Time-consuming data cleaning and transformation to ensure readiness for model building.
