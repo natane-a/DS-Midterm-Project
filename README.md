@@ -3,6 +3,7 @@
 ## Project Goals
 The aim of this project is to develop a machine learning model to predict house prices based on various features.
 
+To view Kai and Natane's workflows, you can view branches to see individual work.
 ## Process Overview
 
 ### Exploratory Data Analysis (EDA)
@@ -41,11 +42,10 @@ The aim of this project is to develop a machine learning model to predict house 
 ### Best Model: XGBRegressor
 | Metric         | Value              |
 |----------------|--------------------|
-| Training Score | 0.9966             |
-| Test Score     | 0.7425             |
-| MSE            | 60,786,794,030.98  |
-| MAE            | 9,667.04           |
-| RÂ²            | 0.7425             |
+| Training Score | 0.9898             |
+| Test Score     | 0.9887             |
+| RMSE           | 30135.75           |
+
 
 ### Linear Regression
 | Metric         | Value              |
