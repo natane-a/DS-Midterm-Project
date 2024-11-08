@@ -91,6 +91,5 @@ The aim of this project is to develop a machine learning model to predict house 
 2. **Model Tuning**: Extensive time required to tune hyperparameters and identify the best model configuration.
 
 ## Future Goals
-1. Explore building more complex models, such as deep learning, to enhance performance.
+1. Explore building more complex models, such as deep learning and time series models, to enhance performance.
 2. Use the model for real-world house price predictions and evaluate its effectiveness.
-3. Fix issues concerning overfitting.
